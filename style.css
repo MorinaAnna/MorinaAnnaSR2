@@ -1,0 +1,249 @@
+h3 {
+    color: #FF55A3; /* Changed to #FF55A3 */
+    font-size: 20px;
+}
+
+.synt {
+    color: #734F96; /* Changed to #734F96 */
+    text-align: center;
+}
+
+#para1 {
+    color: #E9967A; /* Changed to #E9967A */
+    text-align: left;
+}
+
+.backgr {
+    background-color: #F5F5DC; /* Changed to #F5F5DC */
+    opacity: 0.7; /* Adjusted opacity for better visibility */
+}
+
+.mezh {
+    border-style: dashed; /* Keeping dashed border style */
+}
+
+.marg {
+    margin: 30px; /* Increased margin */
+}
+
+.pad {
+    width: 200px;
+    padding: 15px; /* Increased padding */
+    box-sizing: border-box;
+}
+
+.heig {
+    height: 100px;
+    width: 50%;
+    background-color: #FBCEB1; /* Changed to #FBCEB1 */
+}
+
+.bloc {
+    width: 320px;
+    padding: 15px; /* Increased padding */
+    border: 5px solid #CADABA; /* Changed border color to #CADABA */
+    margin: 0;
+}
+
+a.one:link {
+    color: #E9967A; /* Changed to #E9967A */
+}
+a.one:visited {
+    color: #FBCEB1; /* Changed to #FBCEB1 */
+}
+a.one:hover {
+    color: #734F96; /* Changed hover color to #734F96 */
+}
+
+a.two:link,
+a.two:visited {
+    background-color: #FF55A3; /* Changed to #FF55A3 */
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: wait;
+}
+
+ol {
+    background: #FBCEB1; /* Changed to #FBCEB1 */
+    padding: 20px;
+}
+ol li {
+    background: #F5F5DC; /* Changed to #F5F5DC */
+    padding: 10px;
+    margin-left: 35px;
+}
+
+table, th {
+    border: 1px solid #734F96; /* Changed to #734F96 for visibility */
+    vertical-align: bottom;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    height: 100px;
+}
+tr:hover {
+    background-color: #E9967A; /* Changed hover background color to #E9967A */
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    border: 2px solid #FF55A3; /* Changed to #FF55A3 */
+    padding: 20px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+
+#rcorners2 {
+    border-radius: 15px 50px 30px;
+    background: #734F96; /* Changed to #734F96 */
+    padding: 20px;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+}
+
+@keyframes example {
+    from { background-color: #FF55A3; } /* Changed starting color to #FF55A3 */
+    to { background-color: #E9967A; } /* Changed ending color to #E9967A */
+}
+
+.anim {
+    width: 50px;
+    height: 50px;
+    background-color: #FBCEB1; /* Задати початковий колір */
+    transition: background-color 0.5s; /* Додати перехід */
+}
+
+.anim:hover {
+    background-color: #E9967A; /* Колір при наведені */
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: #734F96; /* Changed tooltip background to #734F96 */
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.button1 {
+    height: 50px;
+    background-color: #F5F5DC; /* Changed to #F5F5DC */
+    border: 2px solid #CADABA; /* Changed border to #CADABA */
+    border-radius: 5px;
+}
+.button1:hover {
+    background-color: #CADABA; /* Changed hover color to #CADABA */
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.pagination {
+    display: inline-block;
+}
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #E9967A; /* Changed to #E9967A */
+    transition: background-color .3s;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+.pagination a.active {
+    color: #F5F5DC; /* Changed to #F5F5DC */
+    background-color: #FBCEB1; /* Changed to #FBCEB1 */
+}
+.pagination a:hover:not(.active) {
+    background-color: #CADABA; /* Changed to #CADABA */
+}
+
+.column {
+    column-count: 3;
+}
+
+.dropbtn {
+    color: #000;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #F5F5DC; /* Changed to #F5F5DC */
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #FBCEB1; /* Changed to #FBCEB1 */
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cur_col {
+    color: #FBCEB1; /* Changed to #FBCEB1 */
+    border: 10px solid currentcolor;
+}
+
+.shadow {
+    text-shadow: 2px 2px 5px #FF55A3; /* Changed shadow color to #FF55A3 */
+}
+
+.shadow1 {
+    background-color: #E9967A; /* Changed to #E9967A */
+    height: 100px;
+    width: 250px;
+    box-shadow: 10px 10px #CADABA; /* Changed shadow to #CADABA */
+}
+
+.trans {
+    background-color: #FBCEB1; /* Changed to #FBCEB1 */
+    width: 200px;
+    height: 100px;
+    transition: width 2s;
+}
+.trans:hover {
+    width: 300px;
+}
+
+.ex1 {
+    border: 1px solid #734F96; /* Changed to #734F96 */
+    width: 200px;
+    word-break: break-all;
+}
